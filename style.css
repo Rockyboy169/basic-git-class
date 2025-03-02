@@ -1,29 +1,43 @@
-h1{
-    color: blue;
-}
 
-div{
-    background-color: rgb(48, 162, 200);
-    border: 1px solid black;
-    padding: 10px;
-}
-
-.black-bg{
-    background-color: black;
-    color: white;
-}
-h1.black-bg{
-    background-color: rgb(86, 86, 86);
-    color: white;
-}
 .container{
-    border: 2px solid rgb(209, 0, 0);
+    background-color: rgb(157, 103, 42);
 }
 .container h1{
     font-size: 120px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    color: white;
+    padding: 0px;
+    padding-bottom: 0px;
 }
 
-.container .heading{
-    font-size: 120px;
+.container p{
+    font-size: 30px;
+    font-family: 'Gamja Flower', cursive;
+    font-weight: 1000;
+    font-style: normal;
+    color: white;
+    padding: 5px;
+    padding-bottom: 0px;
 }
-
+.container p1{
+    font-size: 30px;
+    font-family: 'Gamja Flower', cursive;
+    font-weight: 1000;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-top: 0px;
+}
+.brown-bg{
+    background-color: rgb(157, 103, 42);
+}
+.brown-bg2{
+    background-color: rgb(97, 66, 31);
+}
+.white-bg{
+    background-color: white;
+    color: black;
+    padding: 0px;
+}
