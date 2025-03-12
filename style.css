@@ -1,43 +1,101 @@
-
-.container{
-    background-color: rgb(157, 103, 42);
-}
-.container h1{
-    font-size: 120px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 1000;
-    font-style: normal;
-    color: white;
-    padding: 0px;
-    padding-bottom: 0px;
+html body {
+    background-color: #ffd194;
+    margin: 0;
+    padding: 0;
 }
 
-.container p{
+.head-menu {
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.head-text {
+    color: #fff;
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.button {
+    background-color: #fff;
+    color: #1d1d1d;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.title {
+    font-size: 250px;
+    font-weight: bold;
+    color: #1d1d1d;
+    font-family: 'Jura', sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;   
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.text {
     font-size: 30px;
-    font-family: 'Gamja Flower', cursive;
-    font-weight: 1000;
-    font-style: normal;
-    color: white;
-    padding: 5px;
-    padding-bottom: 0px;
+    font-family: 'Jura', sans-serif;
+    color: #1d1d1d;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
-.container p1{
-    font-size: 30px;
-    font-family: 'Gamja Flower', cursive;
-    font-weight: 1000;
-    font-style: normal;
-    color: rgb(255, 255, 255);
-    padding-left: 20px;
-    padding-top: 0px;
+.definition {
+    width: 80%;
 }
-.brown-bg{
-    background-color: rgb(157, 103, 42);
+.rocky-img {
+    width: 30%;
+    margin-left: 150px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
-.brown-bg2{
-    background-color: rgb(97, 66, 31);
+
+.bigbox {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px;
 }
-.white-bg{
-    background-color: white;
-    color: black;
-    padding: 0px;
+.text-container {
+    text-align: left;
+    flex: 1;
+}
+.box {
+    background-color: #1d1d1d;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.box-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+}
+.box-text {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Jura', sans-serif;
+}
+
+.box-img {
+    width: 18%;
+    display: inline-block;
+    margin-right: 20px;
+    
+
 }
